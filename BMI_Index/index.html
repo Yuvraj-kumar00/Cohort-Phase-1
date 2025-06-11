@@ -7,7 +7,48 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div class="bmi-container">
+
+        <div class="bmi-title-container">
+            <h1 class="bmi-title">
+                <img src="bmi.jpg" alt="" class="bmi-logo">
+                BMI CALCULATOR
+            </h1>
+        </div>
+
+        <div class="bmi-content-container">
+            <div class="unit-btn-container">
+                <button class="standard-btn">Standard</button>
+                <button class="metric-btn">Metric</button>
+            </div>
+            <div class="standard-unit-container">
+                <div>
+                    <p class="height">Height</p>
+                    <div class="standard-input-container">
+                        <div class="input-value-in-feet">
+                            <input type="text" value="5" id="standard-height-value">
+                            <span>feet</span>
+                        </div>
+                        <div class="input-value-in-inches">
+                            <input type="text" value="10" id="standard-height-inches-value">
+                            <span>inches</span>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <p class="weight">Weight</p>                 
+                    <div class="input-value-in-pounds">
+                        <input type="text" value="160" id="standard-weight-value">
+                        <span>pounds</span>
+                    </div>
+                </div>
+            </div>
+            <button class="bmi-result-btn">Calculate Your BMI</button>
+            <p class="result"></p>
+        </div>
+
+    </div>
+
     <script src="app.js"></script>
 </body>
 </html>

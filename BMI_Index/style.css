@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #212121;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bmi-container {
+    border: 2px solid #6d6d6d;
+    border-radius: 10px;
+}
+
+.bmi-title-container {
+    background-color: rgb(72, 86, 91);
+    text-align: center;
+    padding: 10px 50px;
+}
+
+.bmi-title {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    line-height: 2;
+}
+
+.bmi-logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.bmi-content-container {
+    padding: 40px 30px;
+}
+
+.unit-btn-container {
+    display: flex;
+}
+
+button {
+    font-size: 18px;
+    background-color: transparent;
+    border: 1px solid #6d6d6d;
+    color: #fff;
+    padding: 8px 25px;
+}
+
+.standard-btn {
+    border-radius: 5px 0 0 5px;
+    background-color: #416b41;
+}
+
+.metric-btn {
+    border-radius: 0 5px 5px 0;
+}
+
+.standard-unit-container {
+    margin: 30px 0;
+}
+
+.height {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.standard-input-container {
+    display: flex;
+}
+
+.input-value-in-feet {
+    display: flex;
+    align-items: center;
+    border: 1px solid #6d6d6d;
+    border-radius: 5px 0 0 5px;
+}
+
+.input-value-in-inches {
+    display: flex;
+    align-items: center;
+    border: 1px solid #6d6d6d;
+    border-radius: 0 5px 5px 0;
+}
+
+input {
+    padding: 10px;
+    font-size: 20px;
+    width: 150px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+}
+
+input:focus {
+    color: #fff;
+}
+
+span {
+    margin-right: 5px;
+    color: #c4c3c3;
+}
+
+.weight {
+    font-size: 18px;
+    margin: 25px 0 15px 0;
+}
+
+.input-value-in-pounds {
+    display: flex;
+    align-items: center;
+    border: 1px solid #6d6d6d;
+    border-radius: 5px;
+}
+
+.input-value-in-pounds input {
+    width: 100%;
+}
+
+.bmi-result-btn {
+    background-color: #416b41;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 1px 3px #547b54;
+    display: block;
+    margin-inline: auto;
+    margin-top: 40px;
+}
+
+.result {
+    text-align: center;
+    line-height: 4;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.bmi-category {
+    color: lightgreen;
+    font-weight: 600;
+}
