@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review Collector</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+        <div class="left-part">
+            <div class="input-box">
+                <textarea id="review-box" rows="8" cols="40" placeholder="Write Your Review Here..."></textarea>
+                <div class="name-input-box">
+                    Name: <input type="text" id="name-input" placeholder="Write Your Name Here...">
+                </div>
+            </div>
+
+            <div class="rating-box">
+                <p class="rating">Rating:</p>
+                <div class="rating-star-box">
+                    <img src="empty-star.jpg" alt="rating-star" class="rating-star" id="first">
+                    <img src="empty-star.jpg" alt="rating-star" class="rating-star" id="second">
+                    <img src="empty-star.jpg" alt="rating-star" class="rating-star" id="third">
+                    <img src="empty-star.jpg" alt="rating-star" class="rating-star" id="fourth">
+                    <img src="empty-star.jpg" alt="rating-star" class="rating-star" id="fifth">
+                </div>
+            </div>
+
+            <button class="submit">Submit</button>
+        </div>
+
+        <div class="right-part">
+            <div class="review-message-box">
+                <p class="avatar-img">Y</p>
+
+                <div class="avatar-name-box">
+                    <p class="avatar-name">Yuvraj Kumar</p>
+                    <div class="avatar-rating-box">
+                        <div class="avatar-ratings">
+                            <img src="rating-star.webp" alt="" class="avatar-rating-icon">
+                            <img src="rating-star.webp" alt="" class="avatar-rating-icon">
+                            <img src="rating-star.webp" alt="" class="avatar-rating-icon">
+                            <img src="rating-star.webp" alt="" class="avatar-rating-icon">
+                            <img src="rating-star.webp" alt="" class="avatar-rating-icon">
+                        </div>
+                        <p class="review-submit-time">2 week ago</p>
+                    </div>
+                    <p class="avatar-review">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa dicta nemo praesentium recusandae provident aspernatur iure eos natus? Perspiciatis, voluptates.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa dicta nemo praesentium recusandae provident aspernatur iure eos natus? Perspiciatis, voluptates.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
