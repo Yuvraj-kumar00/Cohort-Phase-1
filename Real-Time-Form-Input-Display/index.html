@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Time Form Input Display</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="title">Profile Form</h1>
+    <p class="description">Enter your information below to see it displayed in real-time:</p>
+    <label for="name" class="name">
+        Name:
+        <input type="text" id="name" placeholder="Enter your name">
+    </label>
+    <label for="jobTitle" class="jobTitle">
+        Job Title:
+        <input type="text" id="jobTitle" placeholder="Enter your job title">
+    </label>
+    <label for="age" class="age">
+        Age:
+        <input type="text" id="age" placeholder="Enter your age">
+    </label>
+    <label for="bio" class="bio">
+        Bio:
+        <textarea id="bio" rows="4"  placeholder="Tell us about yourself"></textarea>
+    </label>
+
+    <div class="profile-preview">
+        <h2 class="title-2">Profile Preview</h2>
+        <p class="preview-name">Name: <span id="preview-name-value">Not provide</span></p>
+        <p class="preview-job-title">Job Title: <span id="preview-job-title-value">Not provide</span></p>
+        <p class="preview-age">Age: <span id="preview-age-value">Not provide</span></p>
+        <p class="preview-bio">Bio: <span id="preview-bio-value">Not provide</span></p>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
