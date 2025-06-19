@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">ToDo App</h1>
+        <div class="input-container">
+            <input type="text" class="input" id="input" placeholder="Add a new task..." autofocus>
+            <button class="addBtn" id="addBtn">Add</button>
+        </div>
+        <p class="empty-text" id="empty-text">No tasks yet. Add one above!</p>
+        <ul class="list-container" id="list-container">
+            <!-- <li class="list-item">
+                <input type="checkbox" class="checkbox">
+                <p class="list-content">Today i completed my work.</p>
+                <button class="editBtn">Edit</button>
+                <button class="deleteBtn">Delete</button>
+            </li> -->
+        </ul>
+        <div class="result-container">
+            <p class="total-task" id="total-task">Total tasks: 0</p>
+            <p class="completed-task" id="completed-task">Completed: 0</p>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
